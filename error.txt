@@ -1,0 +1,110 @@
+2019-04-09 20:50:13.813 [info][tid:main][RCTCxxBridge.mm:213] Initializing <RCTCxxBridge: 0x7f9effc1ab10> (parent: <RCTBridge: 0x6000031f1880>, executor: (null))
+2019-04-09 20:50:13.816972-0300 rncourse[55244:1750376] Initializing <RCTCxxBridge: 0x7f9effc1ab10> (parent: <RCTBridge: 0x6000031f1880>, executor: (null))
+2019-04-09 20:50:13.947 [info][tid:main][RCTRootView.m:293] Running application rncourse ({
+    initialProps =     {
+    };
+    rootTag = 1;
+})
+2019-04-09 20:50:13.947317-0300 rncourse[55244:1750376] Running application rncourse ({
+    initialProps =     {
+    };
+    rootTag = 1;
+})
+2019-04-09 20:50:14.016058-0300 rncourse[55244:1750471] [] nw_socket_handle_socket_event [C4.1:1] Socket SO_ERROR [61: Connection refused]
+2019-04-09 20:50:14.024380-0300 rncourse[55244:1750471] [] nw_socket_handle_socket_event [C4.2:1] Socket SO_ERROR [61: Connection refused]
+2019-04-09 20:50:14.032577-0300 rncourse[55244:1750471] [] nw_socket_handle_socket_event [C4.3:1] Socket SO_ERROR [61: Connection refused]
+2019-04-09 20:50:14.033493-0300 rncourse[55244:1750472] [] nw_connection_get_connected_socket [C4] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-04-09 20:50:14.355619-0300 rncourse[55244:1750472] [] nw_socket_handle_socket_event [C5.1:1] Socket SO_ERROR [61: Connection refused]
+2019-04-09 20:50:14.358 [warn][tid:com.facebook.react.JavaScript] Require cycle: node_modules/react-native-navigation/src/Navigation.js -> node_modules/react-native-navigation/src/deprecated/platformSpecificDeprecated.ios.js -> node_modules/react-native-navigation/src/Navigation.js
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+2019-04-09 20:50:14.357821-0300 rncourse[55244:1750472] [] nw_socket_handle_socket_event [C5.2:1] Socket SO_ERROR [61: Connection refused]
+2019-04-09 20:50:14.357845-0300 rncourse[55244:1750479] Require cycle: node_modules/react-native-navigation/src/Navigation.js -> node_modules/react-native-navigation/src/deprecated/platformSpecificDeprecated.ios.js -> node_modules/react-native-navigation/src/Navigation.js
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+2019-04-09 20:50:14.360360-0300 rncourse[55244:1750472] [] nw_socket_handle_socket_event [C5.3:1] Socket SO_ERROR [61: Connection refused]
+2019-04-09 20:50:14.361383-0300 rncourse[55244:1750471] [] nw_connection_get_connected_socket [C5] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-04-09 20:50:14.405 [warn][tid:com.facebook.react.JavaScript] Require cycle: node_modules/react-native-navigation/src/Navigation.js -> node_modules/react-native-navigation/src/Screen.js -> node_modules/react-native-navigation/src/Navigation.js
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+2019-04-09 20:50:14.405579-0300 rncourse[55244:1750479] Require cycle: node_modules/react-native-navigation/src/Navigation.js -> node_modules/react-native-navigation/src/Screen.js -> node_modules/react-native-navigation/src/Navigation.js
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+2019-04-09 20:50:14.429 [warn][tid:com.facebook.react.JavaScript] Require cycle: src/store/actions/index.js -> src/store/actions/places.js -> src/store/actions/index.js
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+2019-04-09 20:50:14.429177-0300 rncourse[55244:1750479] Require cycle: src/store/actions/index.js -> src/store/actions/places.js -> src/store/actions/index.js
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+2019-04-09 20:50:14.430 [warn][tid:com.facebook.react.JavaScript] Require cycle: src/store/actions/index.js -> src/store/actions/auth.js -> src/store/actions/index.js
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+2019-04-09 20:50:14.430552-0300 rncourse[55244:1750479] Require cycle: src/store/actions/index.js -> src/store/actions/auth.js -> src/store/actions/index.js
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+2019-04-09 20:50:14.438 [warn][tid:com.facebook.react.JavaScript] Require cycle: App.js -> src/screens/Auth/Auth.js -> src/store/actions/index.js -> src/store/actions/auth.js -> App.js
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+2019-04-09 20:50:14.438053-0300 rncourse[55244:1750479] Require cycle: App.js -> src/screens/Auth/Auth.js -> src/store/actions/index.js -> src/store/actions/auth.js -> App.js
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+2019-04-09 20:50:14.511 [info][tid:com.facebook.react.JavaScript] set root
+2019-04-09 20:50:14.511342-0300 rncourse[55244:1750479] set root
+2019-04-09 20:50:14.515 [info][tid:com.facebook.react.JavaScript] Running application "rncourse" with appParams: {"rootTag":1,"initialProps":{}}. __DEV__ === true, development-level warning are ON, performance optimizations are OFF
+2019-04-09 20:50:14.515224-0300 rncourse[55244:1750479] Running application "rncourse" with appParams: {"rootTag":1,"initialProps":{}}. __DEV__ === true, development-level warning are ON, performance optimizations are OFF
+2019-04-09 20:50:14.515437-0300 rncourse[55244:1750376] *** Assertion failure in -[RCTRootView initWithBridge:moduleName:initialProperties:](), /Users/abib/Desktop/original/rncourse/node_modules/react-native/React/Base/RCTRootView.m:57
+2019-04-09 20:50:14.516 [error][tid:com.facebook.react.JavaScript] Application rncourse has not been registered.
+
+Hint: This error often happens when you're running the packager (local dev server) from a wrong folder. For example you have multiple apps and the packager is still running for the app you were working on before.
+If this is the case, simply kill the old packager instance (e.g. close the packager terminal window) and start the packager in the correct app folder (e.g. cd into app folder and run 'npm start').
+
+This error can also happen due to a require() error during initialization or failure to call AppRegistry.registerComponent.
+
+
+2019-04-09 20:50:14.516182-0300 rncourse[55244:1750479] Application rncourse has not been registered.
+
+Hint: This error often happens when you're running the packager (local dev server) from a wrong folder. For example you have multiple apps and the packager is still running for the app you were working on before.
+If this is the case, simply kill the old packager instance (e.g. close the packager terminal window) and start the packager in the correct app folder (e.g. cd into app folder and run 'npm start').
+
+This error can also happen due to a require() error during initialization or failure to call AppRegistry.registerComponent.
+2019-04-09 20:50:14.522 [fatal][tid:com.facebook.react.ExceptionsManagerQueue] Unhandled JS Exception: Application rncourse has not been registered.
+
+Hint: This error often happens when you're running the packager (local dev server) from a wrong folder. For example you have multiple apps and the packager is still running for the app you were working on before.
+If this is the case, simply kill the old packager instance (e.g. close the packager terminal window) and start the packager in the correct app folder (e.g. cd into app folder and run 'npm start').
+
+This error can also happen due to a require() error during initialization or failure to call AppRegistry.registerComponent.
+
+
+2019-04-09 20:50:14.521752-0300 rncourse[55244:1750472] Unhandled JS Exception: Application rncourse has not been registered.
+
+Hint: This error often happens when you're running the packager (local dev server) from a wrong folder. For example you have multiple apps and the packager is still running for the app you were working on before.
+If this is the case, simply kill the old packager instance (e.g. close the packager terminal window) and start the packager in the correct app folder (e.g. cd into app folder and run 'npm start').
+
+This error can also happen due to a require() error during initialization or failure to call AppRegistry.registerComponent.
+2019-04-09 20:50:14.541441-0300 rncourse[55244:1750376] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'A bridge instance is required to create an RCTRootView'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00000001139dd6fb __exceptionPreprocess + 331
+	1   libobjc.A.dylib                     0x0000000111cdfac5 objc_exception_throw + 48
+	2   CoreFoundation                      0x00000001139dd482 +[NSException raise:format:arguments:] + 98
+	3   Foundation                          0x000000011172d9f0 -[NSAssertionHandler handleFailureInFunction:file:lineNumber:description:] + 166
+	4   rncourse                            0x000000010f8c434b -[RCTRootView initWithBridge:moduleName:initialProperties:] + 651
+	5   rncourse                            0x000000010fb88767 -[RCCViewController initWithComponent:passProps:navigatorStyle:globalProps:bridge:] + 327
+	6   rncourse                            0x000000010fb59420 -[RCCNavigationController initWithProps:children:globalProps:bridge:] + 544
+	7   rncourse                            0x000000010fb87c33 +[RCCViewController controllerWithLayout:globalProps:bridge:] + 1043
+	8   rncourse                            0x000000010fb67463 -[RCCManagerModule performSetRootController:animationType:globalProps:] + 819
+	9   rncourse                            0x000000010fb66bd7 __82-[RCCManagerModule setRootController:animationType:globalProps:resolver:rejecter:]_block_invoke + 55
+	10  libdispatch.dylib                   0x0000000116974d7f _dispatch_call_block_and_release + 12
+	11  libdispatch.dylib                   0x0000000116975db5 _dispatch_client_callout + 8
+	12  libdispatch.dylib                   0x0000000116983080 _dispatch_main_queue_callback_4CF + 1540
+	13  CoreFoundation                      0x00000001139448a9 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 9
+	14  CoreFoundation                      0x000000011393ef56 __CFRunLoopRun + 2310
+	15  CoreFoundation                      0x000000011393e302 CFRunLoopRunSpecific + 626
+	16  GraphicsServices                    0x0000000117e542fe GSEventRunModal + 65
+	17  UIKitCore                           0x000000011e9caba2 UIApplicationMain + 140
+	18  rncourse                            0x000000010f861b50 main + 112
+	19  libdyld.dylib                       0x00000001169ea541 start + 1
+	20  ???                                 0x0000000000000001 0x0 + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+(lldb) 
