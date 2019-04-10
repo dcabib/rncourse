@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "sharexsocial"
+    "default": "ReactNativeCourse",
+    "ReactNativeCourse": "reactnativecours-1554393282214"
   }
 }

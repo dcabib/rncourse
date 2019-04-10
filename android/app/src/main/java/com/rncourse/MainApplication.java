@@ -2,6 +2,7 @@ package com.rncourse;
 import android.app.Application;
  
 import com.facebook.react.ReactApplication;
+import com.reactnative.ivpusic.imagepicker.PickerPackage;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import com.imagepicker.ImagePickerPackage;
 import com.facebook.react.ReactNativeHost;
@@ -28,6 +29,7 @@ public class MainApplication extends NavigationApplication {
     // No need to add RnnPackage and MainReactPackage
     return Arrays.<ReactPackage>asList(
       new MainReactPackage(),
+            new PickerPackage(),
             new AsyncStoragePackage(),
       new ImagePickerPackage(),
       new VectorIconsPackage(),

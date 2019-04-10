@@ -22,8 +22,8 @@ export const addPlace = (placeName, location, image) => {
       })
       .then(token => {
         authToken = token;
-        return fetch(
-          "https://us-central1-sharexsocial.cloudfunctions.net/storeImage",
+          return fetch(
+          "https://us-central1-reactnativecours-1554393282214.cloudfunctions.net/storeImage",
           {
             method: "POST",
             body: JSON.stringify({
@@ -37,25 +37,25 @@ export const addPlace = (placeName, location, image) => {
       })
       .catch(err => {
         console.log(err);
-        alert("Something went wrong, please try again!");
+          alert("Something went wrong, please try again!");
         dispatch(uiStopLoading());
       })
       .then(res => {
         if (res.ok) {
-          return res.json();
+            return res.json();
         } else {
-          throw new Error();
+            throw new Error();
         }
       })
       .then(parsedRes => {
-        const placeData = {
+          const placeData = {
           name: placeName,
           location: location,
           image: parsedRes.imageUrl,
           imagePath: parsedRes.imagePath
         };
         return fetch(
-          "https://sharexsocial.firebaseio.com/places.json?auth=" +
+          "https://reactnativecours-1554393282214.firebaseio.com/places.json?auth=" +
             authToken,
           {
             method: "POST",
@@ -65,18 +65,18 @@ export const addPlace = (placeName, location, image) => {
       })
       .then(res => {
         if (res.ok) {
-          return res.json();
+            return res.json();
         } else {
-          throw new Error();
+            throw new Error();
         }
       })
       .then(parsedRes => {
-        console.log(parsedRes);
+          console.log(parsedRes);
         dispatch(uiStopLoading());
         dispatch(placeAdded());
       })
       .catch(err => {
-        console.log(err);
+          console.log(err);
         alert("Something went wrong, please try again!");
         dispatch(uiStopLoading());
       });
@@ -94,7 +94,7 @@ export const getPlaces = () => {
     dispatch(authGetToken())
       .then(token => {
         return fetch(
-          "https://sharexsocial.firebaseio.com/places.json?auth=" +
+          "https://reactnativecours-1554393282214.firebaseio.com/places.json?auth=" +
             token
         );
       })
@@ -144,7 +144,7 @@ export const deletePlace = key => {
       .then(token => {
         dispatch(removePlace(key));
         return fetch(
-          "https://sharexsocial.firebaseio.com/places/" +
+          "https://reactnativecours-1554393282214.firebaseio.com/places/" +
             key +
             ".json?auth=" +
             token,

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "reactnativecours-1554393282214",
+  "private_key_id": "823c8e372079d72de977b6123641a3192b8d232f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCu7IhPax8IRU2X\nGu8f8c1RrQ1rJhOiu2QPl/3jdF4ilLMZoHfApDF+Ec6NkDbPtoW16M+HdGPxk6Sd\nGuLAqbag8R2o1lAA+gGmSVXoxwd3QsE2fyXt3Y/DtQmFaYZv0zgidJqP/h6mRah6\nfHblp39TQaPG3hYrtDPYzoSWbFBu6bvq2fZbDRUMHqUq62nJ/9cDjqS5XUzo2/Y6\nIBit9P7wxwliwRwSqVKhk3CT8JrKZjwzoJUkUntignN6AccEI8qLgQ97rtN9LdMn\nXe/N4Tl/FqWztP9+BxHVtRsxFkmU8r9Nb/u64qkiaoDyQgv604fTYZW4n0oWId3U\nUEMM3hcTAgMBAAECggEAC7DLO2ORY2AeW2b1bFEgw8CpEOwui8WyXkhuM3FniTAe\n+Ct9VWaj2CUghN2KjD9KmGnC1O62b0LK0aUmWnH9PqxeqxYHqskKqy5ji3chzJqt\nhxLgWhFgtle3Fy+CSJ75NXRNkCoPqlUleWowGBEltU7Bv1zAZpNYk7jZq6P5jC/+\ni8vbq8L26pkCaoN36u8YE2TTI3oyCzmHLyR19/YnkyNGjggLX3nDlf1vXz3eV6KP\ny9JV0nzXXUT6MzQ//XGVRybBMeE+dA45M/qFHABRReUW9iqzxadLykz51JSqqnfQ\nSSsm/xzpJ/mVf2Fbl6++JmIB0JdUnp9EU2Qa2YtlAQKBgQDci5bju14hTrTsRzBm\njLtNab2J5/8JNwQtjrA3vmIzDMgUwOxNu+Wra3cekw94dU6GVw6XctHLxOx3y4mJ\nY2NT3nS+1h/NstYeY2Z7hToVB9Y1wM+knIx6nZF0Qz56Tzcr6TGJK/Y5tl4skiim\nEDsJWDd98LbzaXx40iGH2suZYQKBgQDLC2y373xMBWyzximv3qP7T6cbvD/IZ4XR\nDANVzl44hwPEKUcMFmfUHQkR58qZAoMNoJhw51o8d7EiPwrfx3gQO6h3azPTNz/J\nNdao+RS3KBe1MbAr3kKhaahv5b+KHwMwNQ0bsJhBUE0A2yO+sg6vOA66WMpXuq4b\nNZdWkcuA8wKBgGZW0+bLDCvyhNvbUOdVSJjsh0pWAC97exHU04qaaqD7vmB7AWw0\n06dOz9C9NwGTlaObBCdc3WNr9rrEFQdOukmxwYTIgauG3/rr7yNEOCaII2uAFBpz\nlnBTa6qChZxl49kZdaYMY052hI60J+6fO3XjnKRxLcQX3+2EvJB5A98hAoGAMHPG\netIcUCvPN8sm8X/ok7T7RKQUeGczyKHcPeKkG0sku++5s4m5NyXCn1I3x3GRAnR7\nTB35K4rIa0qt9p6r6PvDhNPBJzr87q/5TJM7vUVE+wkjaCR+s/P5rNIfdf9WjG9s\ndFocyyE1buncSspEtM1kvlUn2+2BVJ7iQVdDP78CgYEAiUHXvUr/6D4KZpQCqbGx\ntsf3GQMn/hcHg8TSlFwGtfc7HpfIlDaMpyMUvOovJXrJ7vBkD/6qh9nZfCR3AgKN\nRg515HtJZFfwaq8QotUtKm+vMvbrsBfSEvYy3gUz+DulxTo6AwtlZuriEJS2UBtV\n9s/ANFTYctsyVbwkVRDEb1c=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ztr1g@reactnativecours-1554393282214.iam.gserviceaccount.com",
+  "client_id": "105360468881940431357",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ztr1g%40reactnativecours-1554393282214.iam.gserviceaccount.com"
+}
