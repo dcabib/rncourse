@@ -55,7 +55,7 @@ export const addPlace = (placeName, location, image) => {
           imagePath: parsedRes.imagePath
         };
         return fetch(
-          "https://reactnativecours-1554393282214.firebaseio.com/places.json?auth=" +
+          "https://rncourse-383f9.firebaseio.com/places.json?auth=" +
             authToken,
           {
             method: "POST",
@@ -94,7 +94,7 @@ export const getPlaces = () => {
     dispatch(authGetToken())
       .then(token => {
         return fetch(
-          "https://reactnativecours-1554393282214.firebaseio.com/places.json?auth=" +
+          "https://rncourse-383f9.firebaseio.com/places.json?auth=" +
             token
         );
       })
@@ -144,7 +144,7 @@ export const deletePlace = key => {
       .then(token => {
         dispatch(removePlace(key));
         return fetch(
-          "https://reactnativecours-1554393282214.firebaseio.com/places/" +
+          "https://rncourse-383f9.firebaseio.com/places/" +
             key +
             ".json?auth=" +
             token,
