@@ -23,7 +23,7 @@ export const addPlace = (placeName, location, image) => {
       .then(token => {
         authToken = token;
           return fetch(
-          "https://us-central1-reactnativecours-1554393282214.cloudfunctions.net/storeImage",
+          "https://us-central1-rncourse-383f9.cloudfunctions.net/storeImage",
           {
             method: "POST",
             body: JSON.stringify({
